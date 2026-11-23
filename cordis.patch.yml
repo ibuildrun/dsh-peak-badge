@@ -1,0 +1,6 @@
+# Client-only bundle. The host row below is inert: it declares no services,
+# routes or config and exists only so the loader includes this bundle and its
+# browser half (lib/client.js) gets mounted into the composer.
+- insert:
+    - id: peak-badge
+      name: dsh-peak-badge

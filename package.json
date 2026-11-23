@@ -1,0 +1,61 @@
+{
+  "name": "dsh-peak-badge",
+  "version": "0.1.0",
+  "description": "DeepSeek peak/off-peak pricing badge and countdown next to the model selector in DeepSeek Harness.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "pricing",
+    "peak-hours"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibuildrun/dsh-peak-badge.git"
+  },
+  "homepage": "https://github.com/ibuildrun/dsh-peak-badge#readme",
+  "bugs": {
+    "url": "https://github.com/ibuildrun/dsh-peak-badge/issues"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/cordis": {
+      "optional": true
+    }
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    },
+    "engines": {
+      "dsh": ">=0.2.0"
+    }
+  }
+}
