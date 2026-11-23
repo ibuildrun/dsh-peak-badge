@@ -1,8 +1,10 @@
 # dsh-peak-badge
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/ibuildrun/dsh-peak-badge?sort=semver)](https://github.com/ibuildrun/dsh-peak-badge/releases)
+[![Tests](https://github.com/ibuildrun/dsh-peak-badge/actions/workflows/test.yml/badge.svg)](https://github.com/ibuildrun/dsh-peak-badge/actions/workflows/test.yml)
 [![Node.js >= 22](https://img.shields.io/badge/node-%3E%3D22-brightgreen.svg)](https://nodejs.org/)
-[![DSH plugin](https://img.shields.io/badge/DSH-plugin-6f42c1.svg)](https://github.com/ibuildrun/dsh-peak-badge)
+[![DSH plugin](https://img.shields.io/badge/DSH-plugin-6f42c1.svg)](https://github.com/ibuildrun/dsh-peak-badge)](https://github.com/ibuildrun/dsh-peak-badge)
 
 A tiny DeepSeek Harness plugin that shows the current DeepSeek pricing tier —
 peak (2×) or off-peak (0.5×) — and the time left until the next switch, right
